@@ -6,11 +6,14 @@
 
 /* ---------- Header style ----------- */
 header {
-    background-color: midnightblue;
+    background-color: #2e3440;
     color: #fff;
     display: flex;
     justify-content: space-between;
     padding: 12px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .logo {
@@ -39,6 +42,13 @@ header {
 }
 
 /* ---------- Banner style ----------- */
+#banner{
+    height: 250px;
+    background-size: contain;
+    background-image: url(../images/banniere.jpg);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
 
 /* ---------- main style ----------- */
 main {
@@ -47,7 +57,7 @@ main {
 
 /* ---------- Footer style ----------- */
 footer {
-    background-color: midnightblue;
+    background-color: #2e3440;
     /* marge interieur : vertical horizontal */
     padding: 16px 0px
 }
