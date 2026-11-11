@@ -43,16 +43,54 @@ header {
 
 /* ---------- Banner style ----------- */
 #banner{
-    height: 250px;
-    background-size: contain;
+    height: 200px;
+    background-size: cover;
     background-image: url(../images/banniere.jpg);
     background-repeat: no-repeat;
-    /* background-position: center; */
 }
 
 /* ---------- main style ----------- */
 main {
-    height: 400px;
+   margin: 20px 35px;
+   display: flex;
+   gap: 24px;
+   justify-content: center;
+}
+
+.carte{
+    border: 1px solid #2e3440;
+    width: 500px;
+    border-radius: 12px;
+    padding: 24px;
+}
+
+.carte .titre{
+    border-left: 5px solid orange;
+    padding-left: 12px;
+    color: blue;
+}
+.carte:last-child  .titre {
+    color: green;
+}
+.carte p{
+     margin-top: 20px;
+     font-size: 20px;
+}
+#conteneur-tech{
+     border-left: 2px solid orange;
+     margin-top: 16px;
+     margin-left: 18px;
+}
+#conteneur-tech ul{
+    list-style-type: circle ;
+     padding-left: 20px;
+    
+}
+#conteneur-tech li{
+    line-height: 1.6;
+}
+#conteneur-tech ul li::marker{
+    color: orange;
 }
 
 /* ---------- Footer style ----------- */
