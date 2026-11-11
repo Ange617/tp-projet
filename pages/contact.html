@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP-HTML/CSS | Contact</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <!-- En-tete -->
+    <header>
+        <!-- logo -->
+        <div class="logo">
+            <img src="/images/logo.jpg" alt="logo" class="logo-img">
+            <span>Du code, de la reussite</span>
+        </div>
+        <!-- navigation -->
+        <nav class="menu">
+            <ul>
+                <li><a href="/index.html">Accueil</a></li>
+                <li><a href="#pages/cours.html">Cours</a></li>
+                <li><a href="#pages/exercices.html">Exercices</a></li>
+                <li><a href="#pages/ressources.html">Ressources</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <!-- En-tete page -->
+    <section class="en-tete-page">
+        <h1>Contactez-nous</h1>
+        <p>Une question? Un projet? Ecrivez-nous, nous repondons sous 24h.</p>
+    </section>
+    <!-- Page principale -->
+    <main>
+        <div class="form-contact">
+            <form class="formulaire" action="#" method="post">
+                <!-- Nom complet -->
+                <div class="champ">
+                    <label for="nom">Nom complet</label>
+                    <input type="text" name="nom" id="nom">
+                </div>
+                <!-- Adresse email -->
+                <div class="champ">
+                    <label for="email">Adresse email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <!--Telephone -->
+                <div class="champ">
+                    <label for="telephone">Telephone</label>
+                    <input type="tel" name="telephone" id="telephone">
+                </div>
+                <!-- Message -->
+                <div class="champ">
+                    <label for="message">Message</label>
+                    <textarea type="text" name="message" id="message"></textarea>
+                </div>
+                <button type="submit" class="btn">Envoyer le message</button>
+            </form>
+        </div>
+    </main>
+
+
+    <!-- Pied de page -->
+    <footer>
+        <div class=" f-text">&copy; 2026 - LABO ACADEMIQUE
+            - Tous droits reserves
+        </div>
+        <div class="f-text"> Contact : contact@laboacademy.fr | Suivez-nous sur
+            <a href="//">LinkedIn</a> et <a href="//">Github</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
