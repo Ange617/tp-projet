@@ -1,0 +1,58 @@
+/* reset */
+* {
+    /* marge exterieur */
+    margin: 0px;
+}
+
+/* ---------- Header style ----------- */
+header {
+    background-color: midnightblue;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 20px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.logo .logo-img {
+    width: 80px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    /* gap m'a permis de mettre espace entre les options */
+    gap: 16px;
+    align-items: center;
+    height: 100%;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* ---------- Banner style ----------- */
+
+/* ---------- main style ----------- */
+main {
+    height: 400px;
+}
+
+/* ---------- Footer style ----------- */
+footer {
+    background-color: midnightblue;
+    /* marge interieur : vertical horizontal */
+    padding: 16px 0px
+}
+
+.f-text {
+    color: white;
+    text-align: center;
+}
